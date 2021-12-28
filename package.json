@@ -6,13 +6,16 @@
   "scripts": {
     "stop": "pm2 kill",
     "start": "pm2 start server.js",
+    "list": "pm2 list",
+    "restart": "pm2 restart server.js",
     "test": "jest",
     "dev": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "pm2": "^5.1.2"
   },
   "devDependencies": {
     "jest": "^26.6.3",
