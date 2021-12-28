@@ -27,9 +27,9 @@ workflows:
   build:
     jobs:
       - build:
-        filters:
-          branches:
-            only: main
+          filters:
+            branches:
+              only: main
       - deploy:
           requires:
             - build
