@@ -26,6 +26,6 @@ runcmd:
   - 'cd /home/azureuser'
   - git clone "https://github.com/msolorio/azure-node-circle-ci2" myapp
   # Start app
-  'cd myapp && npm install && npm start'
+  - 'cd myapp && npm install && npm start'
   # restart NGINX
   - systemctl restart nginx
