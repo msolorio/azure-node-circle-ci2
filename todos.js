@@ -19,5 +19,9 @@ module.exports = [
   {
     id: 5,
     task: "Build automation for circle ci setup"
+  },
+  {
+    id: 6,
+    task: "This is a test"
   }
 ];
